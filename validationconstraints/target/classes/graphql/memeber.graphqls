@@ -1,0 +1,21 @@
+scalar Email
+
+type Member {
+    id: ID!
+    name: String!
+    email: Email!
+}
+
+input AddMemberInput {
+    name: String!
+    email: Email!
+}
+
+type Query {
+    members: [Member!]!
+    memberByEmail(email: Email!): Member
+}
+
+type Mutation {
+    addMember(input: AddMemberInput!): Member
+}
