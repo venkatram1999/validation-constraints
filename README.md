@@ -1,6 +1,6 @@
-# Member GraphQL API
+# Validation & Constraint in GraphQL API
 
-This project is a simple Spring Boot GraphQL application for managing members. It demonstrates how to use a custom `Email` scalar, validate and sanitize input data, and return clean GraphQL errors from resolver methods [web:68][web:293][web:297].
+This project is a simple Spring Boot GraphQL application for managing members. It demonstrates how to use a custom `Email` scalar, validate and sanitize input data, and return clean GraphQL errors from resolver methods.
 
 ## Schema
 
